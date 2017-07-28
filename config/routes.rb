@@ -57,5 +57,5 @@ Rails.application.routes.draw do
   #   end
   resources :users
   resources :microposts
-  root 'users#index'
+  root 'application#hello'
 end
